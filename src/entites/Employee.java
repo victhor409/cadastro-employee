@@ -19,8 +19,7 @@ public class Employee {
 	}
 	//metodo para calcular o aumento
 	public double increaseSalary(double percentage) {
-		return percentage=+grossSalary;
+		return  percentage = NetSalary(grossSalary)+grossSalary*0.10;
+	  }
+	}
 	
-	 }
-	
-}
